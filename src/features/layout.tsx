@@ -4,7 +4,7 @@ import { Logo } from './logo';
 
 export const Layout: React.FC = ({ children }) => {
 	return (
-		<>
+		<div className="home">
 			<Head>
 				<title>Brandbook</title>
 				<link rel="icon" href="/favicon.ico" />

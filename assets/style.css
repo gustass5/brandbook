@@ -3,3 +3,9 @@
 	display: block;
 	padding-top: 100%;
 }
+
+.home {
+	background-image: url('../public/home.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
