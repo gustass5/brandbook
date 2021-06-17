@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { FourDots } from '../components/FourDots';
+import { ChatBubble } from '../components/ChatBubble';
 import { Logo } from './logo';
 
 export const Layout: React.FC = ({ children }) => {
@@ -38,6 +39,7 @@ export const Layout: React.FC = ({ children }) => {
 							</LinkItem>
 						</ul>
 					</nav>
+					<ChatBubble style="text-white mx-auto" />
 				</div>
 
 				<div>{children}</div>
