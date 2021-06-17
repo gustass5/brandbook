@@ -42,9 +42,10 @@ export const Layout: React.FC = ({ children }) => {
 					<ChatBubble style="text-white mx-auto" />
 				</div>
 
-				<div>{children}</div>
+				<div className="w-full">{children}</div>
 				<FourDots style="absolute bottom-8 right-8 text-white" />
-		</>
+			</div>
+		</div>
 	);
 };
 
