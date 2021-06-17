@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { FourDots } from '../components/FourDots';
 import { Logo } from './logo';
 
 export const Layout: React.FC = ({ children }) => {
@@ -40,7 +41,7 @@ export const Layout: React.FC = ({ children }) => {
 				</div>
 
 				<div>{children}</div>
-			</div>
+				<FourDots style="absolute bottom-8 right-8 text-white" />
 		</>
 	);
 };
