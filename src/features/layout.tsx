@@ -13,7 +13,7 @@ export const Layout: React.FC = ({ children }) => {
 			</Head>
 
 			<div className="flex">
-				<div className="p-6 w-[300px] h-screen space-y-6 bg-black text-white">
+				<div className="relative p-6 w-[300px] h-screen space-y-6 bg-black text-white">
 					<div className="square relative">
 						<div className="flex items-center absolute inset-0">
 							<Link href="/" passHref>
@@ -26,6 +26,7 @@ export const Layout: React.FC = ({ children }) => {
 
 					<nav>
 						<ul className="space-y-4">
+							<LinkItem href="/preface">Preface</LinkItem>
 							<LinkItem href="/about">About</LinkItem>
 							<LinkItem href="/logo">Logo</LinkItem>
 							<LinkItem href="/typography">Typography</LinkItem>
@@ -37,13 +38,18 @@ export const Layout: React.FC = ({ children }) => {
 							<LinkItem href="/social-media-elements">
 								Social media elements
 							</LinkItem>
+							<LinkItem href="/innovation-lab-tools">
+								Innovation Lab tools
+							</LinkItem>
 						</ul>
 					</nav>
-					<ChatBubble style="text-white mx-auto" />
+					<div className="absolute inset-x-0 flex justify-center bottom-10">
+						<ChatBubble style="text-white" />
+					</div>
 				</div>
 
 				<div className="w-full">{children}</div>
-				<FourDots style="absolute bottom-8 right-8 text-white" />
+				<FourDots style="absolute bottom-8 right-8" />
 			</div>
 		</div>
 	);

@@ -1,3 +1,21 @@
+@font-face {
+	font-family: fontys-bold;
+	src: url(../public/Fyfrubol.ttf);
+}
+
+@font-face {
+	font-family: fontys-light;
+	src: url(../public/Fyfrurom.ttf);
+}
+
+.fontys-bold {
+	font-family: 'fontys-bold';
+}
+
+.fontys-light {
+	font-family: 'fontys-light';
+}
+
 .square:before {
 	content: '';
 	display: block;
