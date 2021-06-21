@@ -27,7 +27,6 @@ export const Layout: React.FC = ({ children }) => {
 
 						<nav>
 							<ul className="space-y-4">
-								<LinkItem href="/preface">Preface</LinkItem>
 								<LinkItem href="/about">About</LinkItem>
 								<LinkItem href="/logo">Logo</LinkItem>
 								<LinkItem href="/typography">Typography</LinkItem>
