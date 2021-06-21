@@ -3,7 +3,7 @@ import { Layout } from '../src/features/layout';
 export default function About() {
 	return (
 		<Layout>
-			<div className="flex bg-white h-full">
+			<div className="flex bg-white h-full pb-32">
 				<section className="flex flex-col text-lg fontys-light w-3/4 mx-auto">
 					<h1 className="text-6xl my-32 mx-auto">ABOUT</h1>
 					<article className="flex flex-col space-y-6 mb-8">
