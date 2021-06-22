@@ -2,7 +2,7 @@ import { Layout } from '../src/features/layout';
 
 export default function Home() {
 	return (
-		<Layout>
+		<Layout showCorner={false}>
 			<span className="absolute top-10 right-4 text-white text-lg fontys-light">
 				Challenge spring 2021
 			</span>
