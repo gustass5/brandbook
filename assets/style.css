@@ -16,6 +16,10 @@
 	font-family: 'fontys-light';
 }
 
+.fontys-spacing {
+	letter-spacing: 0.3em;
+}
+
 .square:before {
 	content: '';
 	display: block;
