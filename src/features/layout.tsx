@@ -44,7 +44,11 @@ export const Layout: React.FC = ({ children }) => {
 							</ul>
 						</nav>
 						<div className="absolute inset-x-0 flex justify-center bottom-10">
-							<ChatBubble style="text-white" />
+							<Link href="/contact" passHref>
+								<a>
+									<ChatBubble style="text-white" />
+								</a>
+							</Link>
 						</div>
 					</div>
 				</div>
