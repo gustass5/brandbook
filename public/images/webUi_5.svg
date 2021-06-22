@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_41312" data-name="Group 41312" transform="translate(-1028 -440)">
+    <circle id="Ellipse_563" data-name="Ellipse 563" cx="2.206" cy="2.206" r="2.206" transform="matrix(0.966, -0.259, 0.259, 0.966, 1050.399, 478.522)"/>
+    <circle id="Ellipse_564" data-name="Ellipse 564" cx="3.309" cy="3.309" r="3.309" transform="matrix(0.966, -0.259, 0.259, 0.966, 1048.954, 463.624)"/>
+    <circle id="Ellipse_565" data-name="Ellipse 565" cx="3.309" cy="3.309" r="3.309" transform="matrix(0.966, -0.259, 0.259, 0.966, 1048.901, 455.814)"/>
+    <circle id="Ellipse_566" data-name="Ellipse 566" cx="2.206" cy="2.206" r="2.206" transform="matrix(0.966, -0.259, 0.259, 0.966, 1050.208, 449.83)"/>
+    <circle id="Ellipse_567" data-name="Ellipse 567" cx="3.309" cy="3.309" r="3.309" transform="matrix(0.966, -0.259, 0.259, 0.966, 1049.003, 470.977)"/>
+    <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(1078 440) rotate(90)" fill="none" stroke="#04f" stroke-width="0.4">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.2" y="0.2" width="49.6" height="49.6" fill="none"/>
+    </g>
+    <g id="Ellipse_568" data-name="Ellipse 568" transform="translate(1078 440) rotate(90)" fill="none" stroke="#2680eb" stroke-width="0.4">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.8" fill="none"/>
+    </g>
+  </g>
+</svg>

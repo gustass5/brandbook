@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_41314" data-name="Group 41314" transform="translate(-756 -440)">
+    <circle id="Ellipse_542" data-name="Ellipse 542" cx="2.206" cy="2.206" r="2.206" transform="translate(796.737 461.324) rotate(-104.616)"/>
+    <circle id="Ellipse_543" data-name="Ellipse 543" cx="2.206" cy="2.206" r="2.206" transform="translate(796.737 474.059) rotate(-104.616)"/>
+    <circle id="Ellipse_545" data-name="Ellipse 545" cx="3.309" cy="3.309" r="3.309" transform="translate(789.384 475.875) rotate(-104.616)"/>
+    <circle id="Ellipse_546" data-name="Ellipse 546" cx="3.309" cy="3.309" r="3.309" transform="translate(782.031 475.875) rotate(-104.616)"/>
+    <circle id="Ellipse_547" data-name="Ellipse 547" cx="3.309" cy="3.309" r="3.309" transform="translate(789.384 463.14) rotate(-104.616)"/>
+    <circle id="Ellipse_548" data-name="Ellipse 548" cx="3.309" cy="3.309" r="3.309" transform="translate(782.031 463.14) rotate(-104.616)"/>
+    <circle id="Ellipse_549" data-name="Ellipse 549" cx="3.309" cy="3.309" r="3.309" transform="translate(774.222 463.14) rotate(-104.616)"/>
+    <circle id="Ellipse_550" data-name="Ellipse 550" cx="3.309" cy="3.309" r="3.309" transform="translate(766.869 463.14) rotate(-104.616)"/>
+    <circle id="Ellipse_551" data-name="Ellipse 551" cx="2.206" cy="2.206" r="2.206" transform="translate(760.986 461.324) rotate(-104.616)"/>
+    <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(756 440)" fill="none" stroke="#04f" stroke-width="0.4">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="0.2" y="0.2" width="49.6" height="49.6" fill="none"/>
+    </g>
+    <g id="Ellipse_554" data-name="Ellipse 554" transform="translate(756 440)" fill="none" stroke="#2680eb" stroke-width="0.4">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24.8" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -7,7 +7,7 @@ export default function Branding() {
 		<Layout>
 			<div className="flex bg-white h-full pb-32">
 				<section className="flex flex-col justify-center mb-28 fontys-light w-full max-w-screen-lg mx-auto">
-					<h1 className="text-5xl tracking-widest mt-32 mb-24">BRANDIng</h1>
+					<h1 className="text-5xl tracking-widest mt-32 mb-24">BRANDING</h1>
 					<article className="flex text-lg space-y-6 space-x-32">
 						<div className="flex flex-1 flex-col text-xl fontys-light tracking-widest space-y-2">
 							<p className="fontys-bold mb-8">
