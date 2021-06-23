@@ -66,7 +66,7 @@ export default function InnovationLabTools() {
 								</button>
 								<div className="w-6"></div>
 								<a
-									href="https://www.youtube.com/watch?v=QUIpb8k8ty4&ab_channel=JVK"
+									href="https://www.youtube.com/watch?v=jGtDtYTxnMs&ab_channel=JVK"
 									target="_blank"
 									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
 									style={{ borderWidth: '2px' }}
@@ -86,7 +86,7 @@ export default function InnovationLabTools() {
 								</button>
 								<div className="w-6"></div>
 								<a
-									href="https://dynamic-identity-audio.netlify.app/"
+									href="#"
 									target="_blank"
 									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
 									style={{ borderWidth: '2px' }}
