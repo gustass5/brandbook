@@ -210,6 +210,21 @@ export default function DynamicWebElements() {
 								</div>
 							</div>
 						</div>
+
+						<div>
+							<h3 className="text-3xl">Page transition</h3>
+							<div className="flex my-3 space-x-6">
+								<div className="flex flex-col items-center">
+									<img src="/images/page_trans_state_1.png" alt="" />
+									<span>State 1</span>
+								</div>
+
+								<div className="flex flex-col items-center">
+									<img src="/images/page_trans_state_2.png" alt="" />
+									<span>State 2</span>
+								</div>
+							</div>
+						</div>
 					</article>
 				</section>
 			</div>
