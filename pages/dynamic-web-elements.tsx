@@ -1,8 +1,35 @@
 import { Layout } from '../src/features/layout';
+import { useState } from 'react';
+import { Dialog } from '@headlessui/react';
 
 export default function DynamicWebElements() {
+	let [isOpen, setIsOpen] = useState(false);
+	let [videoUrl, setVideoUrl] = useState('');
 	return (
 		<Layout>
+			<Dialog
+				className="flex items-center justify-center fixed z-10 inset-0 overflow-y-auto"
+				open={isOpen}
+				onClose={() => setIsOpen(false)}
+			>
+				<Dialog.Overlay className="fixed inset-0 bg-black opacity-30" />
+				<button
+					onClick={() => setIsOpen(false)}
+					className="absolute top-0 right-0 m-12 focus:outline-none"
+				>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+					>
+						<path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z" />
+					</svg>
+				</button>
+				<video autoPlay className="w-1/2">
+					<source src={videoUrl} type="video/mp4" />
+				</video>
+			</Dialog>
 			<div className="flex bg-white h-full pb-32">
 				<section className="flex flex-col fontys-light items-center w-full max-w-screen-lg mx-auto">
 					<h1 className="text-5xl tracking-widest mt-32 mb-24 w-full">
@@ -207,6 +234,16 @@ export default function DynamicWebElements() {
 										alt=""
 									/>
 									<span>State 5</span>
+									<a
+										onClick={() => {
+											setVideoUrl('Page loader.mp4');
+											setIsOpen(!isOpen);
+										}}
+										className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6 my-4 w-40 cursor-pointer"
+										style={{ borderWidth: '2px' }}
+									>
+										See example
+									</a>
 								</div>
 							</div>
 						</div>
@@ -214,12 +251,22 @@ export default function DynamicWebElements() {
 						<div>
 							<h3 className="text-3xl">Page transition</h3>
 							<div className="flex my-3 space-x-6">
-								<div className="flex flex-col items-center">
+								<div className="flex flex-col">
 									<img src="/images/page_trans_state_1.png" alt="" />
 									<span>State 1</span>
+									<a
+										onClick={() => {
+											setVideoUrl('Page transistion.mp4');
+											setIsOpen(!isOpen);
+										}}
+										className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6 my-4 w-40 cursor-pointer"
+										style={{ borderWidth: '2px' }}
+									>
+										See example
+									</a>
 								</div>
 
-								<div className="flex flex-col items-center">
+								<div className="flex flex-col">
 									<img src="/images/page_trans_state_2.png" alt="" />
 									<span>State 2</span>
 								</div>
