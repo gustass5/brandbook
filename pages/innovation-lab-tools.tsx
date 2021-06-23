@@ -23,6 +23,9 @@ export default function InnovationLabTools() {
 								>
 									Download
 								</button>
+								<a target="_blank" href="#">
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center">
@@ -33,36 +36,54 @@ export default function InnovationLabTools() {
 								>
 									Download
 								</button>
+								<a
+									target="_blank"
+									href="https://dynamic-identity-audio.netlify.app/"
+								>
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center ">
-								<span className="w-40">Instagram layer</span>
+								<span className="w-40">Calendar</span>
 								<button
 									type="button"
 									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
 								>
 									Download
 								</button>
+								<a target="_blank" href="https://youtu.be/jGtDtYTxnMs">
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center">
-								<span className="w-40">Template pack</span>
+								<span className="w-40">Instagram filter</span>
 								<button
 									type="button"
 									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
 								>
 									Download
 								</button>
+								<a target="_blank" href="#">
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center ">
-								<span className="w-40">Animation pack</span>
+								<span className="w-40">Transition pack</span>
 								<button
 									type="button"
 									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
 								>
 									Download
 								</button>
+								<a
+									target="_blank"
+									href="https://stichtingfontys.sharepoint.com/:v:/r/sites/DynamicIdentity/Gedeelde%20documenten/General/Sprint%203%20demo%20video%20v2.mp4?csf=1&web=1"
+								>
+									Show
+								</a>
 							</div>
 						</div>
 					</article>
