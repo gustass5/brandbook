@@ -19,50 +19,100 @@ export default function InnovationLabTools() {
 								<span className="w-40">Countdown app</span>
 								<button
 									type="button"
-									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
+									className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6"
+									style={{ borderWidth: '2px' }}
 								>
 									Download
 								</button>
+								<div className="w-6"></div>
+								<a
+									href="https://dep-di.netlify.app/v4/"
+									target="_blank"
+									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
+									style={{ borderWidth: '2px' }}
+								>
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center">
 								<span className="w-40">Audio visualizer</span>
 								<button
 									type="button"
-									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
+									className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6"
+									style={{ borderWidth: '2px' }}
 								>
 									Download
 								</button>
+								<div className="w-6"></div>
+								<a
+									href="https://dynamic-identity-audio.netlify.app/"
+									target="_blank"
+									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
+									style={{ borderWidth: '2px' }}
+								>
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center ">
-								<span className="w-40">Instagram layer</span>
+								<span className="w-40">Calendar</span>
 								<button
 									type="button"
-									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
+									className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6"
+									style={{ borderWidth: '2px' }}
 								>
 									Download
 								</button>
-							</div>
-
-							<div className="flex items-center">
-								<span className="w-40">Template pack</span>
-								<button
-									type="button"
-									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
+								<div className="w-6"></div>
+								<a
+									href="https://www.youtube.com/watch?v=QUIpb8k8ty4&ab_channel=JVK"
+									target="_blank"
+									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
+									style={{ borderWidth: '2px' }}
 								>
-									Download
-								</button>
+									Show
+								</a>
 							</div>
 
 							<div className="flex items-center ">
-								<span className="w-40">Animation pack</span>
+								<span className="w-40">Instagram filter</span>
 								<button
 									type="button"
-									className="transition duration-150 hover:opacity-80 bg-black text-white rounded-full py-3 px-6"
+									className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6"
+									style={{ borderWidth: '2px' }}
 								>
 									Download
 								</button>
+								<div className="w-6"></div>
+								<a
+									href="https://dynamic-identity-audio.netlify.app/"
+									target="_blank"
+									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
+									style={{ borderWidth: '2px' }}
+								>
+									Show
+								</a>
+							</div>
+
+							<div className="flex items-center ">
+								<span className="w-40">Transition packs</span>
+								<button
+									type="button"
+									className="transition duration-150 hover:opacity-80 bg-black text-white border-black rounded-lg py-3 px-6"
+									style={{ borderWidth: '2px' }}
+								>
+									Download
+								</button>
+								<div className="w-6"></div>
+								<a
+									href="/Sprint 3 demo video v2.mp4"
+									target="_blank"
+									className="transition duration-150 hover:bg-black hover:text-white bg-white text-black border-black rounded-lg focus:outline-none py-3 px-12"
+									style={{ borderWidth: '2px' }}
+								>
+									Show
+								</a>
 							</div>
 						</div>
 					</article>

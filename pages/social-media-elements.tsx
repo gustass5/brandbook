@@ -40,7 +40,7 @@ export default function SocialMediaElements() {
 									alt=""
 								/>
 								<img
-									className="w-64 h-64"
+									className="ml-16 h-64"
 									src="/images/insta-tabs-mock.png"
 									alt=""
 								/>
