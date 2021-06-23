@@ -12,7 +12,7 @@ export default function Logo() {
 					<h1 className="text-5xl tracking-widest mt-32 mb-24">LOGO</h1>
 					<article className="flex flex-col text-lg space-y-32">
 						<div className="flex flex-1 flex-col text-xl fontys-light tracking-widest">
-							<p className="fontys-normal mb-4">
+							<p className="fontys-normal mb-10">
 								The use of the logo is based on the use of it. There is
 								a formal logo, that is fixed and there is a dynamic logo
 								which is more flexible.
@@ -36,7 +36,7 @@ export default function Logo() {
 							<div className="flex-1 space-y-2">
 								<h2 className="text-3xl">Dynamic Elements</h2>
 
-								<p className="fontys-normal mb-4">
+								<p className="fontys-normal mb-4 ">
 									The second part is the dynamic logo. This logo has 2
 									dynamic elements and a lot more flexibility color
 									and shape wise. The 2 elements are the stripe that
@@ -46,7 +46,7 @@ export default function Logo() {
 								</p>
 							</div>
 
-							<div>
+							<div className="pt-10">
 								<LabWithLeftBorder />
 							</div>
 						</div>

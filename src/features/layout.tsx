@@ -46,6 +46,7 @@ export const Layout: React.FC<{ showCorner?: boolean }> = ({
 								<LinkItem href="/innovation-lab-tools">
 									Innovation Lab tools
 								</LinkItem>
+								<LinkItem href="/scanner">Scanner</LinkItem>
 							</ul>
 						</nav>
 						<div className="absolute inset-x-0 flex justify-center bottom-10">
@@ -64,7 +65,7 @@ export const Layout: React.FC<{ showCorner?: boolean }> = ({
 					<div className="fixed bottom-0 right-0">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							className="w-64 -mb-24 -mr-16"
+							className="w-72 -mb-24 -mr-16"
 							viewBox="0 0 164.51 153.87"
 						>
 							<defs>

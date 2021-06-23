@@ -6,8 +6,8 @@ export default function Typography() {
 			<div className="flex bg-white h-full pb-32">
 				<section className="flex flex-col justify-center mb-28 fontys-light max-w-screen-lg w-full mx-auto">
 					<h1 className="text-5xl tracking-widest mt-32 mb-24">TYPOGRAPHY</h1>
-					<article className="flex text-lg space-y-6">
-						<div className="flex flex-col text-4xl fontys-light tracking-widest space-y-2">
+					<article className="flex text-lg">
+						<div className="flex flex-1 flex-col text-3xl fontys-light tracking-widest space-y-2">
 							<span>Font to be used:</span>
 							<span>Fontys Frutiger</span>
 							<span>Family, in logo:</span>
@@ -15,10 +15,8 @@ export default function Typography() {
 							<span>LIGHT</span>
 							<span>Spacing 300px</span>
 						</div>
-						<div className="">
-							<div className="ml-28 py-20 pl-16 text-4xl fontys-bold border-l-8 border-black">
-								Fontys Frutiger Black
-							</div>
+						<div className="flex flex-1 items-center ml-28 py-20 pl-24 text-3xl fontys-bold border-l-4 border-black">
+							Fontys Frutiger Black
 						</div>
 					</article>
 				</section>

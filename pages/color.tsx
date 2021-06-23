@@ -32,16 +32,16 @@ export default function Color() {
 								</div>
 							</div>
 
-							<p className="fontys-normal mb-4">
+							<p className="fontys-normal mb-8">
 								For the dynamic elements there are endless possibilities
 								for color usage. The guideline for these type of outages
 								are free as long as the only other dynamic parts are
 								again the stripe and “lab” part as mentioned in the logo
 								section. The explorations below are some of the
 								possibilities.
-								<br />
-								Explorations
 							</p>
+
+							<h2 className="mb-4">Explorations</h2>
 
 							<div className="space-y-10">
 								<div className="flex space-x-6">

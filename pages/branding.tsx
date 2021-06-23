@@ -14,24 +14,30 @@ export default function Branding() {
 								To make sure that the brand Is recognisable we use two
 								brand elements descending from the logo.
 							</p>
-							<p className="fontys-normal pb-16">
-								The dots come back in every outage. Through these dots
-								people recognise the brand without seeing a logo. The
-								dots stand for the core value’s open and innovation,
-								because they are round and therefore welcoming. They can
-								also transform, therefore they draw out innovation.
-							</p>
-							<p className="fontys-normal">
-								The stripe is the second recognisable element from the
-								brand. The stripe connects Fontys with the reimagined
-								Innovation Lab. Because of this, when the stripe moves
-								over elements, new elements appear.
-							</p>
-						</div>
-						<div className="flex flex-col items-center justify-end space-y-6">
-							<Bubble style="w-32 h-32" />
-
-							<div className="w-3 bg-black h-32"></div>
+							<div className="flex items-center pb-16">
+								<p className="fontys-normal">
+									The dots come back in every outage. Through these
+									dots people recognise the brand without seeing a
+									logo. The dots stand for the core value’s open and
+									innovation, because they are round and therefore
+									welcoming. They can also transform, therefore they
+									draw out innovation.
+								</p>
+								<div className="pl-16 flex-none w-48">
+									<Bubble style="w-32 h-32" />
+								</div>
+							</div>
+							<div className="flex items-center">
+								<p className="fontys-normal">
+									The stripe is the second recognisable element from
+									the brand. The stripe connects Fontys with the
+									reimagined Innovation Lab. Because of this, when the
+									stripe moves over elements, new elements appear.
+								</p>
+								<div className="pl-16 flex justify-center flex-none w-48">
+									<div className="w-[4px] bg-black h-32"></div>
+								</div>
+							</div>
 						</div>
 					</article>
 				</section>
